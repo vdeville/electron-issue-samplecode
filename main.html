@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+</head>
+<body>
+<script>
+    const { ipcRenderer } = require('electron');
+</script>
+<h1>Hello World!</h1>
+<button onclick="ipcRenderer.send('quit-app')">Exit the app</button>
+</body>
+</html>

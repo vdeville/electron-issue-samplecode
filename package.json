@@ -1,0 +1,25 @@
+{
+  "name": "radio5050-player",
+  "version": "0.0.1",
+  "description": "Player Desktop pour la radio Radio 50/50",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Valentin DEVILLE",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^4.0.3",
+    "electron-builder": "^20.38.5"
+  },
+  "build": {
+    "appId": "com.radio5050.player",
+    "productName": "Player Radio 50/50",
+    "mac": {
+      "category": "public.app-category.entertainment"
+    }
+  }
+}
